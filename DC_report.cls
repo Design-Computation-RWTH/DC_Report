@@ -405,7 +405,7 @@
 % Define Python listing style
 \lstdefinestyle{gruvbox-light}{
     backgroundcolor=\color{gruvbox-bg},
-    basicstyle=\ttfamily\tiny\color{gruvbox-fg},
+    basicstyle=\ttfamily\scriptsize\color{gruvbox-fg},
     keywordstyle=\color{gruvbox-purple}\bfseries,
     commentstyle=\color{gruvbox-aqua}\itshape,
     stringstyle=\color{gruvbox-green},
