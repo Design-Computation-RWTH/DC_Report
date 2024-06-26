@@ -391,7 +391,38 @@
   stringstyle=\color{black}\ttfamily\bfseries,
   sensitive=true
 }
+% Define Gruvbox light color scheme
+\definecolor{gruvbox-bg}{HTML}{fefefe}
+\definecolor{gruvbox-fg}{HTML}{3c3836}
+\definecolor{gruvbox-red}{HTML}{cc241d}
+\definecolor{gruvbox-green}{HTML}{98971a}
+\definecolor{gruvbox-yellow}{HTML}{d79921}
+\definecolor{gruvbox-blue}{HTML}{458588}
+\definecolor{gruvbox-purple}{HTML}{b16286}
+\definecolor{gruvbox-aqua}{HTML}{689d6a}
+\definecolor{gruvbox-orange}{HTML}{d65d0e}
 
+% Define Python listing style
+\lstdefinestyle{gruvbox-light}{
+    backgroundcolor=\color{gruvbox-bg},
+    basicstyle=\ttfamily\tiny\color{gruvbox-fg},
+    keywordstyle=\color{gruvbox-purple}\bfseries,
+    commentstyle=\color{gruvbox-aqua}\itshape,
+    stringstyle=\color{gruvbox-green},
+    numberstyle=\tiny\color{gruvbox-orange},
+    identifierstyle=\color{gruvbox-fg},
+    emphstyle=\color{gruvbox-blue},
+    breaklines=true,
+    frame=single,
+    framerule=0pt,
+    rulecolor=\color{darkgray},
+    showstringspaces=false,
+    tabsize=4,
+    captionpos=b,
+    numbers=left,
+    numbersep=5pt,
+    numberstyle=\tiny\color{darkgray},
+}
 
 
 %----------------------------------------------------------------------------------------
